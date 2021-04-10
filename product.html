@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boonlorm Farm</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="md:flex">
+        <div class="my-5 mx-8 font-bold text-green-800">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="my-5 mx-8 font-bold text-green-800">
+            <a href="product.html">Product</a> 
+        </div>
+        <div class="my-5 mx-8 font-bold text-green-800">
+            <a href="cafe.html">Aunya cafe</a>
+        </div>
+        <div class="my-5 mx-8 font-bold text-green-800">
+            <a href="about.html">About us</a>
+        </div>
+    </div>
+
+    <div class="md">
+        <h1 class="md:text-center m-8 font-bold text-5xl text-green-600">Organic produces</h1>
+    </div>
+
+    <div class="md:flex">
+        <div class="md:w-1/2">
+            <p class="mx-8 text-2xl font-bold">Fresh organic dates</p>
+            <img class="my-8" src="https://cdn.shopify.com/s/files/1/0004/7628/2891/products/25615_582x.png?v=1538428516">
+        </div>
+        <div class="md:w-1/2">
+            <p class="mx-8 my-8 text-base">Fresh, handpicked date palm from the farm. Super sweet and juicy!</p>
+            <p class="mx-8 text-2xl font-bold text-green-600">$35.99 per lb</p>
+        </div>
+    </div>
+
+    <div class="md:flex">
+        <div class="md:w-1/2">
+            <p class="mx-8 my-8 text-2xl font-bold">Sun dried organic dates</p>
+            <img class="my-8" src="https://images-na.ssl-images-amazon.com/images/I/51FiEJbx7CL._AC_SY580_.jpg">
+        </div>
+        <div class="md:w-1/2">
+            <p class="mx-8 mt-12 mb-8 text-base">Great source of energy and iron. Dried in sanitized greenhouse. No sugar added!</p>
+            <p class="mx-8 text-2xl font-bold text-green-600">$30.99 per lb</p>
+        </div>
+    </div>
+    <div>
+        <h1 class="font-bold text-xl text-center my-8">Fill the form to order</h1>
+        <form netlify>
+            <label class="mx-8 block mt-4 font-bold" for="name">Name</label>
+            <input class="mx-8 p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-600
+            focus:border-green-600" type="text" id="name" name="name">
+      
+            <label class="mx-8 block mt-4 font-bold" for="email">Email</label>
+            <input class="mx-8 p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-600
+            focus:border-green-600" type="text" id="email" name="email">
+          
+            <label class="mx-8 block mt-4 font-bold" for="order">What would you like to order?</label>
+            <textarea rows="6" class="mx-8 p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-600
+            focus:border-green-600" id="order" name="order"></textarea>
+          
+            <button class="mx-8 block mt-4 text-white bg-green-600 rounded px-4 py-2">Order now</button>
+          </form>
+    </div>
+</body>
